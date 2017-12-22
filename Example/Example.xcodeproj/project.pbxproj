@@ -13,8 +13,8 @@
 		65143D721FECF4BC009BE11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65143D711FECF4BC009BE11E /* Assets.xcassets */; };
 		65143D751FECF4BC009BE11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65143D731FECF4BC009BE11E /* LaunchScreen.storyboard */; };
 		65143D801FECF4BC009BE11E /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65143D7F1FECF4BC009BE11E /* ExampleTests.swift */; };
-		65143D8B1FECF4CD009BE11E /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65143D8A1FECF4CD009BE11E /* Weak.swift */; };
-		65143D8C1FECF4CD009BE11E /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65143D8A1FECF4CD009BE11E /* Weak.swift */; };
+		65143D921FED1B40009BE11E /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65143D911FED1B40009BE11E /* Weak.swift */; };
+		65143D931FED1B40009BE11E /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65143D911FED1B40009BE11E /* Weak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,9 @@
 		65143D7B1FECF4BC009BE11E /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65143D7F1FECF4BC009BE11E /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		65143D811FECF4BC009BE11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65143D8A1FECF4CD009BE11E /* Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 		65143D8E1FED1567009BE11E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		65143D8F1FED1567009BE11E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		65143D911FED1B40009BE11E /* Weak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			children = (
 				65143D8F1FED1567009BE11E /* LICENSE */,
 				65143D8E1FED1567009BE11E /* README.md */,
-				65143D8D1FECF4D1009BE11E /* Source */,
+				65143D901FED1B40009BE11E /* Source */,
 				65143D691FECF4BC009BE11E /* Example */,
 				65143D7E1FECF4BC009BE11E /* ExampleTests */,
 				65143D681FECF4BC009BE11E /* Products */,
@@ -104,12 +104,13 @@
 			path = ExampleTests;
 			sourceTree = "<group>";
 		};
-		65143D8D1FECF4D1009BE11E /* Source */ = {
+		65143D901FED1B40009BE11E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				65143D8A1FECF4CD009BE11E /* Weak.swift */,
+				65143D911FED1B40009BE11E /* Weak.swift */,
 			);
-			path = Source;
+			name = Source;
+			path = ../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +218,7 @@
 			files = (
 				65143D6D1FECF4BC009BE11E /* ViewController.swift in Sources */,
 				65143D6B1FECF4BC009BE11E /* AppDelegate.swift in Sources */,
-				65143D8B1FECF4CD009BE11E /* Weak.swift in Sources */,
+				65143D921FED1B40009BE11E /* Weak.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65143D801FECF4BC009BE11E /* ExampleTests.swift in Sources */,
-				65143D8C1FECF4CD009BE11E /* Weak.swift in Sources */,
+				65143D931FED1B40009BE11E /* Weak.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
